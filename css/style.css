@@ -1,0 +1,38 @@
+body {
+	background: gray;
+}
+
+.para {
+	background: white;
+	padding-top: 500px;
+}
+
+img {
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin-left: 25px;
+    border: 2px solid black;
+}
+
+/*used https://stackoverflow.com/questions/7245018/how-to-evenly-distribute-elements-in-a-div-next-to-each-other for help*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
